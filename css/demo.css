@@ -206,7 +206,7 @@ main {
 
 .github {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: text-bottom;
 	margin: 0 0 2.5em;
 }
 
