@@ -1,0 +1,32 @@
+.word--redraw {
+	font-size: 12vw;
+	font-family: 'Montserrat', serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ededed;
+	line-height: 0.7125;
+	letter-spacing: -0.02em;
+}
+
+.word--redraw span {
+	display: block;
+	position: relative;
+}
+
+.word--redraw svg {
+	left: 50%;
+	position: absolute;
+	height: 100%;
+	width: auto;
+	max-width: 100%;
+	fill: none;
+	stroke: var(--color-text);
+	stroke-width: 4px;
+	transform: translateX(-50%);
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.word--redraw svg path {
+	opacity: 0;
+}
