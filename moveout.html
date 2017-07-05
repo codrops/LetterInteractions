@@ -3,18 +3,18 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Letter Interactions | Demo: Kidnap | Codrops</title>
+		<title>Letter Interactions | Demo: Move Out | Codrops</title>
 		<meta name="description" content="Some inspiration for playful hover interactions on words" />
 		<meta name="keywords" content="typography, effects, interaction, hover, animation, javascript, css, web design" />
 		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="favicon.ico">
-		<link href="https://fonts.googleapis.com/css?family=Nunito:400,700|Days+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Nunito:400,700|Squada+One" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="css/kidnap.css" />
-		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		<link rel="stylesheet" type="text/css" href="css/moveout.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>		
 	</head>
-	<body class="demo-kidnap loading">
+	<body class="demo-moveout">
 		<svg class="hidden">
 			<symbol id="icon-arrow" viewBox="0 0 24 24">
 				<title>arrow</title>
@@ -37,30 +37,31 @@
 						<a class="codrops-icon codrops-icon--drop" href="https://tympanus.net/codrops/?p=31349" title="Back to the article"><svg class="icon icon--drop"><use xlink:href="#icon-drop"></use></svg></a>
 					</div>
 					<h1 class="codrops-header__title">Letter Effects &amp; Interaction Ideas</h1>
+					<p class="info">Hold and release the letters</p>
 				</header>
 				<p class="codrops-header__tagline">
 					<a class="github" href="https://github.com/codrops/LetterInteractions/" title="Find this project on GitHub"><svg class="icon icon--github"><use xlink:href="#icon-github"></use></svg></a>
 					Some playful typographic (hover) animations</p>
 				<nav class="demos">
 					<a class="demo" href="index.html"><span>Magneto</span></a>
-					<a class="demo demo--current" href="kidnap.html"><span>Kidnap</span></a>
+					<a class="demo" href="kidnap.html"><span>Kidnap</span></a>
 					<a class="demo" href="redraw.html"><span>Redraw</span></a>
 					<a class="demo" href="swing.html"><span>Swing</span></a>
 					<a class="demo" href="playful.html"><span>Playful</span></a>
-					<a class="demo" href="trail.html"><span>Trail</span></a>
+					<a class="demo" href="trail.html"><span>Trail Maker</span></a>
 					<a class="demo" href="crossword.html"><span>Crossword</span></a>
-					<a class="demo" href="moveout.html"><span>Move Out</span></a>
+					<a class="demo demo--current" href="moveout.html"><span>Move Out</span></a>
 					<a class="demo" href="weaver.html"><span>Weaver</span></a>
 				</nav>
 				<p class="deco">Leve fit, quod bene fertur, onus.</p>
 			</div>
 			<section class="content content--layout">
-				<h2 class="word word--kidnap" data-image-death="img/death.svg" data-images-char-1="img/r1.png,img/r2.png,img/r3.png" data-images-char-2="img/a1.png,img/a2.png,img/a3.png" data-images-char-3="img/n1.png,img/n2.png,img/n3.png" data-images-char-4="img/s1.png,img/s2.png,img/s3.png" data-images-char-5="img/o1.png,img/o2.png,img/o3.png" data-images-char-6="img/m1.png,img/m2.png,img/m3.png" data-background-colors="#f5a4bf,#336ff0,#ffea9e,#33beff,#a5d613,#f89a53">ransom</h2>
+				<h2 class="word word--moveout">Abomb</h2>
 			</section>
 		</main>
-		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/charming.min.js"></script>
+		<script src="js/anime.min.js"></script>
 		<script src="js/demo.js"></script>
-		<script src="js/demo2.js"></script>
+		<script src="js/demo8.js"></script>
 	</body>
 </html>

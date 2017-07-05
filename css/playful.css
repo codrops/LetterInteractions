@@ -1,0 +1,21 @@
+.word--playful {
+	font-size: 10vw;
+	font-family: 'Vidaloka', serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 0.65;
+	margin: 0 0 1em 0;
+}
+
+.word--playful > span {
+	display: block;
+	padding: 1em 0 0;
+	cursor: pointer;
+	position: relative;
+}
+
+.word--playful span span {
+	display: block;
+	pointer-events: none;
+}

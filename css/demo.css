@@ -37,6 +37,41 @@ html {
 	--color-link-hover: #fff;
 }
 
+.demo-playful {
+	--color-text: #fff;
+	--color-background: #00ecf0;
+	--color-link: #000;
+	--color-link-hover: #fffea2;
+}
+
+.demo-trail {
+	--color-text: #ffffff;
+    --color-background: #a8f0a1;
+    --color-link: #2f9925;
+    --color-link-hover: #16630e;
+}
+
+.demo-crossword {
+	--color-text: #fff;
+	--color-background: #654dd4;
+	--color-link: #ffed0b;
+	--color-link-hover: #fff;
+}
+
+.demo-moveout {
+	--color-text: #766e6e;
+	--color-background: #d6d4d3;
+	--color-link: #ffffff;
+	--color-link-hover: #c82222;
+}
+
+.demo-weaver {
+	--color-text: #c3c5c9;
+    --color-background: #3b3b3e;
+    --color-link: #7174f6;
+    --color-link-hover: #000;
+}
+
 body {
 	font-family: 'Nunito', monospace;
 	color: var(--color-text);
@@ -188,7 +223,6 @@ main {
 	position: relative;
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
 	align-items: flex-start;
 	z-index: 100;
 	grid-area: header;
@@ -202,6 +236,11 @@ main {
 	padding: 0.75em 0;
 	margin: 0;
 	font-weight: normal;
+}
+
+.info {
+	color: var(--color-link-hover);
+	margin: 0 0 0 1.25em;
 }
 
 .github {
@@ -249,6 +288,7 @@ main {
 	text-transform: lowercase;
 	font-weight: bold;
 	pointer-events: none;
+	white-space: nowrap;
 }
 
 .demo span::before {

@@ -1,0 +1,25 @@
+.word--trail {
+	font-size: 12vw;
+	font-family: 'Cabin Sketch', sans-serif;
+	font-weight: 400;
+	color: #795548;
+	line-height: 0.8;
+	text-transform: uppercase;
+	margin: 0;
+	letter-spacing: 0.15em;
+}
+
+.word--trail span {
+	display: block;
+	position: relative;
+	z-index: 100;
+}
+
+.word--trail span span {
+	pointer-events: none;
+}
+
+.word--trail span span:not(:last-child) {
+	position: absolute;
+	color: #cc8065;
+}

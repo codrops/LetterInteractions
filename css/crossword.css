@@ -1,0 +1,27 @@
+.word--crossword {
+	font-size: 13vh;
+	font-family: 'Barrio', serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 0.9;
+	margin: 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 0.65em);
+	justify-self: center;
+}
+
+.word--crossword span {
+	text-align: center;	
+	display: block;
+}
+
+.word__cross {
+	pointer-events: none;
+	color: #3f2b9a;
+}
+
+.word__cross span {
+	opacity: 0;
+
+}

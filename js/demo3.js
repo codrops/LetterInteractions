@@ -151,7 +151,7 @@
 								complete: () => this.isDrawing = false
 							});
 						}
-					})
+					});
 				});
 			}, 50);
 			
@@ -160,10 +160,6 @@
 				clearTimeout(this.mouseTimeout);
 				if( !this.isActive ) return;
 				this.isActive = false;
-				
-				requestAnimationFrame(() => {
-					
-				});
 			};
 			this.DOM.letter.addEventListener('mouseenter', this.mouseenterFn);
 			this.DOM.letter.addEventListener('mouseleave', this.mouseleaveFn);

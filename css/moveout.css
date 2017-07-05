@@ -1,0 +1,35 @@
+.word--moveout {
+	font-size: 12vw;
+	font-family: 'Squada One', sans-serif;
+	font-weight: 400;
+	color: #c82222;
+	line-height: 0.7;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.word--moveout > span {
+	display: block;
+	cursor: default;
+	position: relative;
+	cursor: pointer;
+}
+
+.word--moveout span span {
+	display: block;
+	pointer-events: none;
+}
+
+.word--moveout svg {
+	position: absolute;
+	left: 50%;
+    margin-left: -2.5vw;
+    width: 5vw;
+	top: 100%;
+}
+
+.word--moveout svg rect {
+	fill: currentColor;
+	opacity: 0;
+	transform-origin: 50% 50%;
+}
